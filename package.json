@@ -1,5 +1,5 @@
 {
-  "name": "sketch",
+  "name": "component-sketch",
   "description": "Sketch canvas drawing component",
   "version": "0.2.0",
   "keywords": [
@@ -8,23 +8,12 @@
     "drawing",
     "sketch"
   ],
+  "styles": [
+    "sketch.css"
+  ],
   "dependencies": {
-    "classes-component": "*",
-    "raf-component": "1.1.1",
-    "events-component-2": "1.0.4"
-  },
-  "component": {
-    "scripts": {
-      "sketch/index.js": "index.js",
-      "sketch/point.js": "point.js",
-      "sketch/path.js": "path.js"
-    },
-    "styles": [
-      "sketch.css"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/sketch.git"
+    "component-classes": "git://github.com/npmcomponent/component-classes.git",
+    "component-raf": "git://github.com/npmcomponent/component-raf.git",
+    "component-events": "git://github.com/npmcomponent/component-events.git"
   }
 }

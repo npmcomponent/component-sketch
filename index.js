@@ -3,10 +3,10 @@
  * Module dependencies.
  */
 
-var classes = require('classes');
-var events = require('events');
+var classes = require('component-classes');
+var events = require('component-events');
 var Path = require('./path');
-var raf = require('raf');
+var raf = require('component-raf');
 
 /**
  * Create a new `Sketch` for the given `canvas`.
